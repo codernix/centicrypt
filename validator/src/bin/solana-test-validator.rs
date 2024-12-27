@@ -374,7 +374,7 @@ fn main() {
     } else if random_mint {
         println_name_value(
             "\nNotice!",
-            "No wallet available. `solana airdrop` localnet SOL after creating one\n",
+            "No wallet available. `solana airdrop` localnet CNTC after creating one\n",
         );
     }
 

@@ -14,7 +14,7 @@ Validator-client rewards for these services are to be distributed at the end of 
 The effective protocol-based annual staking yield \(%\) per epoch received by validation-clients is to be a function of:
 
 - the current global inflation rate, derived from the pre-determined disinflationary issuance schedule \(see [Validation-client Economics](ed_vce_overview.md)\)
-- the fraction of staked SOLs out of the current total circulating supply,
+- the fraction of staked CNTCs out of the current total circulating supply,
 - the commission charged by the validation service,
 - the up-time/participation \[% of available slots that validator had opportunity to vote on\] of a given validator over the previous epoch.
 
@@ -37,10 +37,10 @@ From these simulated _Inflation Schedules_, we can also project ranges for token
 
 ![](/img/p_total_supply_ranges.png)
 
-Finally we can estimate the _Staked Yield_ on staked SOL, if we introduce an additional parameter, previously discussed, _% of Staked SOL_:
+Finally we can estimate the _Staked Yield_ on staked CNTCs, if we introduce an additional parameter, previously discussed, _% of Staked SOL_:
 
 $$
-\%~\text{SOL Staked} = \frac{\text{Total SOL Staked}}{\text{Total Current Supply}}
+\%~\text{SOL Staked} = \frac{\text{Total CNTC Staked}}{\text{Total Current Supply}}
 $$
 
 In this case, because _% of Staked SOL_ is a parameter that must be estimated (unlike the _Inflation Schedule_ parameters), it is easier to use specific _Inflation Schedule_ parameters and explore a range of _% of Staked SOL_. For the below example, we’ve chosen the middle of the parameter ranges explored above:

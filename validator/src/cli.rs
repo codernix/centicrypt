@@ -2681,7 +2681,7 @@ pub fn test_app<'a>(version: &'a str, default_args: &'a DefaultTestArgs) -> App<
                 .value_name("SOL")
                 .default_value(default_args.faucet_sol.as_str())
                 .help(
-                    "Give the faucet address this much SOL in genesis. If the ledger already \
+                    "Give the faucet address this much CNTC in genesis. If the ledger already \
                      exists then this parameter is silently ignored",
                 ),
         )
@@ -2700,7 +2700,7 @@ pub fn test_app<'a>(version: &'a str, default_args: &'a DefaultTestArgs) -> App<
                 .value_name("SOL")
                 .min_values(0)
                 .max_values(1)
-                .help("Per-time slice limit for faucet requests, in SOL"),
+                .help("Per-time slice limit for faucet requests, in CNTC"),
         )
         .arg(
             Arg::with_name("faucet_per_request_sol_cap")
@@ -2709,7 +2709,7 @@ pub fn test_app<'a>(version: &'a str, default_args: &'a DefaultTestArgs) -> App<
                 .value_name("SOL")
                 .min_values(0)
                 .max_values(1)
-                .help("Per-request limit for faucet requests, in SOL"),
+                .help("Per-request limit for faucet requests, in CNTC"),
         )
         .arg(
             Arg::with_name("geyser_plugin_config")
