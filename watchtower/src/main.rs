@@ -128,7 +128,7 @@ fn get_config() -> Config {
                 .takes_value(true)
                 .default_value("10")
                 .validator(is_parsable::<f64>)
-                .help("Alert when the validator identity balance is less than this amount of SOL")
+                .help("Alert when the validator identity balance is less than this amount of CNTC")
         )
         .arg(
             // Deprecated parameter, now always enabled
