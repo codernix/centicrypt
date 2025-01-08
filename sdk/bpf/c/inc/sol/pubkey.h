@@ -1,6 +1,6 @@
 #pragma once
 /**
- * @brief Solana Public key
+ * @brief Centicrypt Public key
  */
 
 #include <sol/types.h>

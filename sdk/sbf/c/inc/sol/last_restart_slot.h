@@ -1,6 +1,6 @@
 #pragma once
 /**
- * @brief Solana Last Restart Slot system call
+ * @brief Centicrypt Last Restart Slot system call
  */
 
 #include <sol/types.h>

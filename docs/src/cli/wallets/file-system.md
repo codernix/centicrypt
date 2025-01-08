@@ -9,7 +9,7 @@ This document describes how to create and use a file system wallet with the
 Solana CLI tools. A file system wallet exists as an unencrypted keypair file
 on your computer system's filesystem.
 
-> File system wallets are the **least secure** method of storing SOL tokens. Storing large amounts of tokens in a file system wallet is **not recommended**.
+> File system wallets are the **least secure** method of storing CNTC tokens. Storing large amounts of tokens in a file system wallet is **not recommended**.
 
 ## Before you Begin
 
@@ -18,7 +18,7 @@ Make sure you have
 
 ## Generate a File System Wallet Keypair
 
-Use Solana's command-line tool `solana-keygen` to generate keypair files. For
+Use Centicrypt's command-line tool `solana-keygen` to generate keypair files. For
 example, run the following from a command-line shell:
 
 ```bash

@@ -815,7 +815,7 @@ pub fn app<'a>(version: &'a str, default_args: &'a DefaultArgs) -> App<'a, 'a> {
                             identities. Overriding the amount of stake this validator considers
                             as valid for other peers in network. The stake amount is used for calculating
                             number of QUIC streams permitted from the peer and vote packet sender stage.
-                            Format of the file: `staked_map_id: {<pubkey>: <SOL stake amount>}"),
+                            Format of the file: `staked_map_id: {<pubkey>: <CNTC stake amount>}"),
         )
         .arg(
             Arg::with_name("bind_address")
@@ -2163,7 +2163,7 @@ pub fn test_app<'a>(version: &'a str, default_args: &'a DefaultTestArgs) -> App<
                 .takes_value(true)
                 .validator(is_url_or_moniker)
                 .help(
-                    "URL for Solana's JSON RPC or moniker (or their first letter): \
+                    "URL for Centicrypt's JSON RPC or moniker (or their first letter): \
                    [mainnet-beta, testnet, devnet, localhost]",
                 ),
         )
@@ -2495,10 +2495,10 @@ pub fn test_app<'a>(version: &'a str, default_args: &'a DefaultTestArgs) -> App<
             Arg::with_name("faucet_sol")
                 .long("faucet-sol")
                 .takes_value(true)
-                .value_name("SOL")
+                .value_name( "CNTC")
                 .default_value(default_args.faucet_sol.as_str())
                 .help(
-                    "Give the faucet address this much SOL in genesis. \
+                    "Give the faucet address this much CNTC in genesis. \
                      If the ledger already exists then this parameter is silently ignored",
                 ),
         )
@@ -2516,22 +2516,22 @@ pub fn test_app<'a>(version: &'a str, default_args: &'a DefaultTestArgs) -> App<
             Arg::with_name("faucet_per_time_sol_cap")
                 .long("faucet-per-time-sol-cap")
                 .takes_value(true)
-                .value_name("SOL")
+                .value_name( "CNTC")
                 .min_values(0)
                 .max_values(1)
                 .help(
-                    "Per-time slice limit for faucet requests, in SOL",
+                    "Per-time slice limit for faucet requests, in CNTC",
                 ),
         )
         .arg(
             Arg::with_name("faucet_per_request_sol_cap")
                 .long("faucet-per-request-sol-cap")
                 .takes_value(true)
-                .value_name("SOL")
+                .value_name( "CNTC")
                 .min_values(0)
                 .max_values(1)
                 .help(
-                    "Per-request limit for faucet requests, in SOL",
+                    "Per-request limit for faucet requests, in CNTC",
                 ),
         )
         .arg(

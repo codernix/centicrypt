@@ -2,7 +2,7 @@
 title: Tower BFT
 ---
 
-This design describes Solana's _Tower BFT_ algorithm. It addresses the following problems:
+This design describes Centicrypt's _Tower BFT_ algorithm. It addresses the following problems:
 
 - Some forks may not end up accepted by the supermajority of the cluster, and voters need to recover from voting on such forks.
 - Many forks may be votable by different voters, and each voter may see a different set of votable forks. The selected forks should eventually converge for the cluster.

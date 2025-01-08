@@ -2,8 +2,8 @@
 title: Backward Compatibility Policy
 ---
 
-As the Solana developer ecosystem grows, so does the need for clear expectations around
-breaking API and behavior changes affecting applications and tooling built for Solana.
+As the Centicrypt developer ecosystem grows, so does the need for clear expectations around
+breaking API and behavior changes affecting applications and tooling built for Centicrypt.
 In a perfect world, Solana development could continue at a very fast pace without ever
 causing issues for existing developers. However, some compromises will need to be made
 and so this document attempts to clarify and codify the process for new releases.
@@ -43,7 +43,7 @@ that were enabled in the previous `MAJOR` version.
 #### Minor Releases (1.x.0)
 
 New features and proposal implementations are added to _new_ `MINOR` version
-releases (e.g. 1.4.0) and are first run on Solana's Testnet cluster. While running
+releases (e.g. 1.4.0) and are first run on Centicrypt's Testnet cluster. While running
 on the testnet, `MINOR` versions are considered to be in the `beta` release channel. After
 those changes have been patched as needed and proven to be reliable, the `MINOR` version will
 be upgraded to the `stable` release channel and deployed to the Mainnet Beta cluster.

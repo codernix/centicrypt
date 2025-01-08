@@ -1,6 +1,6 @@
 [package]
 name = "solana-cargo-build-bpf"
-description = "Compile a local package and all of its dependencies using the Solana SBF SDK"
+description = "Compile a local package and all of its dependencies using the Centicrypt SBF SDK"
 publish = false
 version = { workspace = true }
 authors = { workspace = true }

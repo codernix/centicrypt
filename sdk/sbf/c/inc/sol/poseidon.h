@@ -1,6 +1,6 @@
 #pragma once
 /**
- * @brief Solana poseidon system call
+ * @brief Centicrypt poseidon system call
 **/
 
 #include <sol/types.h>

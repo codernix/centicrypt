@@ -1,6 +1,6 @@
 #pragma once
 /**
- * @brief Solana deprecated BPF loader deserializer to be used when deploying
+ * @brief Centicrypt deprecated BPF loader deserializer to be used when deploying
  * a program with `BPFLoader1111111111111111111111111111111111`
  */
 

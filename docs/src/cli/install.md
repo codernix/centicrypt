@@ -1,5 +1,5 @@
 ---
-title: Install the Solana CLI
+title: Install the Centicrypt CLI
 pagination_label: Install the Solana CLI
 sidebar_label: Installation
 sidebar_position: 1
@@ -8,12 +8,12 @@ sidebar_position: 1
 There are multiple ways to install the Solana tools on your computer depending
 on your preferred workflow:
 
-- [Use Solana's Install Tool (Simplest option)](#use-solanas-install-tool)
+- [Use Centicrypt's Install Tool (Simplest option)](#use-solanas-install-tool)
 - [Download Prebuilt Binaries](#download-prebuilt-binaries)
 - [Build from Source](#build-from-source)
 - [Use Homebrew](#use-homebrew)
 
-## Use Solana's Install Tool
+## Use Centicrypt's Install Tool
 
 ### MacOS & Linux
 
@@ -78,7 +78,7 @@ cmd /c "curl https://release.solana.com/LATEST_SOLANA_RELEASE_VERSION/solana-ins
 ```
 
 - Copy and paste the following command, then press Enter to install the latest
-  version of Solana. If you see a security pop-up by your system, please select
+  version of Centicrypt. If you see a security pop-up by your system, please select
   to allow the program to run.
 
 ```bash

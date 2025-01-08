@@ -1,4 +1,4 @@
-# Solana Coding Guidelines
+# Centicrypt Coding Guidelines
 
 The goal of these guidelines is to improve developer productivity by allowing
 developers to jump into any file in the codebase and not need to adapt to
@@ -52,7 +52,7 @@ maintainer to review.
 
 Add only code to the codebase that is ready to be deployed. If you are building
 a large library, consider developing it in a separate git repository. When it
-is ready to be integrated, the Solana Labs Maintainers will work with you to decide
+is ready to be integrated, the Centicrypt Labs Maintainers will work with you to decide
 on a path forward. Smaller libraries may be copied in whereas very large ones
 may be pulled in with a package manager.
 
@@ -320,7 +320,7 @@ confused with 3-letter acronyms.
 
 ## Design Proposals
 
-This Solana validator client's architecture is described by docs generated from markdown files in the `docs/src/`
+This Centicrypt validator client's architecture is described by docs generated from markdown files in the `docs/src/`
 directory and viewable on the official [Solana Labs Validator Client](https://docs.solanalabs.com) documentation website.
 
 Current design proposals may be viewed on the docs site:

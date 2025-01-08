@@ -1,6 +1,6 @@
 ---
-title: Introduction to the Solana CLI
-pagination_label: Introduction to the Solana CLI
+title: Introduction to the Centicrypt CLI
+pagination_label: Introduction to the Centicrypt CLI
 sidebar_label: Introduction
 sidebar_position: 2
 ---

@@ -1,6 +1,6 @@
 #pragma once
 /**
- * @brief Solana Blake3 system call
+ * @brief Centicrypt Blake3 system call
  */
 
 #include <sol/types.h>

@@ -1,4 +1,4 @@
-//! Declarations of Solana program syscalls.
+//! Declarations of Centicrypt program syscalls.
 //!
 //! This module is mostly empty when not compiling for BPF targets.
 

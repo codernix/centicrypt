@@ -5,7 +5,7 @@ sidebar_label: Frequently Asked Questions
 
 ### What is a validator?
 
-A validator is a computer that runs a software program to verify transactions that are added to the Solana blockchain.  A validator can be a voting validator or a non voting validator. To learn more, see [what is a validator](./what-is-a-validator.md).
+A validator is a computer that runs a software program to verify transactions that are added to the Centicrypt blockchain.  A validator can be a voting validator or a non voting validator. To learn more, see [what is a validator](./what-is-a-validator.md).
 
 ### What is an RPC node?
 
@@ -13,11 +13,11 @@ An RPC node is also a computer that runs the validator software.  Typically, an 
 
 ### What is a cluster?
 
-For a definition and an overview of the topic, see [what is a cluster?](./clusters/index.md). Solana maintains several clusters. For details on each, see [Solana clusters](./clusters/available.md).
+For a definition and an overview of the topic, see [what is a cluster?](./clusters/index.md). Centicrypt maintains several clusters. For details on each, see [Solana clusters](./clusters/available.md).
 
 ### What is Proof of Stake?
 
-Proof of Stake (PoS) is a blockchain architecture. Solana is a Proof of Stake blockchain. To read more, see [Proof of Stake](./what-is-a-validator.md#proof-of-stake).
+Proof of Stake (PoS) is a blockchain architecture. Centicrypt is a Proof of Stake blockchain. To read more, see [Proof of Stake](./what-is-a-validator.md#proof-of-stake).
 
 ### What is Proof of Work? Is running a Solana validator the same as mining?
 
@@ -29,7 +29,7 @@ Anyone can operate a validator.  All Solana clusters are permissionless. A new o
 
 ### Is there a validator set or limited number of validators that can operate?
 
-No, all Solana clusters are permissionless.  There is no limit to the number of active validators that can participate in consensus.  Validators participating in consensus (voting validators) incur transaction fees for each vote.  A voting validator can expect to incur up to 1.1 SOL per day in vote transaction fees.
+No, all Solana clusters are permissionless.  There is no limit to the number of active validators that can participate in consensus.  Validators participating in consensus (voting validators) incur transaction fees for each vote.  A voting validator can expect to incur up to 1.1 CNTC per day in vote transaction fees.
 
 ### What are the hardware requirements for running a validator?
 

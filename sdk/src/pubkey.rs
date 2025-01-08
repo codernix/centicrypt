@@ -1,4 +1,4 @@
-//! Solana account addresses.
+//! Centicrypt account addresses.
 
 pub use solana_program::pubkey::*;
 

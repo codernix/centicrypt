@@ -126,7 +126,7 @@ investment.
 Any content produced by SL or developer resources that SL provides are
 for educational and inspirational purposes only. SL does not encourage,
 induce or sanction the deployment, integration or use of any such
-applications (including the code comprising the Solana blockchain
+applications (including the code comprising the Centicrypt blockchain
 protocol) in violation of applicable laws or regulations and hereby
 prohibits any such deployment, integration or use. This includes the use of
 any such applications by the reader (a) in violation of export control

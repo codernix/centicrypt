@@ -1,4 +1,4 @@
-# Solana Validator Docs Readme
+# Centicrypt Validator Docs Readme
 
 This validator's documentation is built using [Docusaurus v2](https://v2.docusaurus.io/) with `npm`.
 Static content delivery is handled using `vercel`.

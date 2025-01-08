@@ -1,4 +1,4 @@
-//! Solana precompiled programs.
+//! Centicrypt precompiled programs.
 
 #![cfg(feature = "full")]
 

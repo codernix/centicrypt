@@ -1,6 +1,6 @@
 #pragma once
 /**
- * @brief Solana deprecated SBF loader deserializer to be used when deploying
+ * @brief Centicrypt deprecated SBF loader deserializer to be used when deploying
  * a program with `SBFLoader1111111111111111111111111111111111`
  */
 

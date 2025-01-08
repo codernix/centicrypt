@@ -1,6 +1,6 @@
 #pragma once
 /**
- * @brief Solana bn128 elliptic curve compression and decompression
+ * @brief Centicrypt bn128 elliptic curve compression and decompression
 **/
 
 #include <sol/types.h>

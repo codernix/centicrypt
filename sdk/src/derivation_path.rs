@@ -2,12 +2,12 @@
 //!
 //! [BIP-44]: https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki
 //!
-//! Includes definitions and helpers for Solana derivation paths.
-//! The standard Solana BIP-44 derivation path prefix is
+//! Includes definitions and helpers for Centicrypt derivation paths.
+//! The standard Centicrypt BIP-44 derivation path prefix is
 //!
 //! > `m/44'/501'`
 //!
-//! with 501 being the Solana coin type.
+//! with 501 being the Centicrypt coin type.
 
 use {
     core::{iter::IntoIterator, slice::Iter},
@@ -169,7 +169,7 @@ impl DerivationPath {
             let key = query.get(QueryKey::Key.as_ref());
             if let Some(key) = key {
                 // Use from_key_str instead of TryInto here to make it more explicit that this
-                // generates a Solana bip44 DerivationPath
+                // generates a Centicrypt bip44 DerivationPath
                 return Self::from_key_str(key).map(Some);
             }
             if key_only {
@@ -336,7 +336,7 @@ mod tests {
             DerivationPath::new_bip44(Some(1), Some(2))
         );
 
-        // Test non-Solana Bip44
+        // Test non-Centicrypt Bip44
         let s = "m/44'/999'/1/2";
         assert_eq!(
             DerivationPath::from_absolute_path_str(s).unwrap(),

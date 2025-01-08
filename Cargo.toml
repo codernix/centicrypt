@@ -559,7 +559,7 @@ rev = "6105d7a5591aefa646a95d12b5e8d3f55a9214ef"
 git = "https://github.com/anza-xyz/curve25519-dalek.git"
 rev = "0382b672560493840f453f2a0e24c4a129abd3a4"
 
-# Solana RPC nodes experience stalls when running with `tokio` containing this
+# Centicrypt RPC nodes experience stalls when running with `tokio` containing this
 # commit:
 # https://github.com/tokio-rs/tokio/commit/4eed411519783ef6f58cbf74f886f91142b5cfa6
 #

@@ -4,9 +4,9 @@
   </a>
 </p>
 
-# Solana Program
+# Centicrypt Program
 
-Use the Solana Program Crate to write on-chain programs in Rust.  If writing client-side applications, use the [Solana SDK Crate](https://crates.io/crates/solana-sdk) instead.
+Use the Centicrypt Program Crate to write on-chain programs in Rust.  If writing client-side applications, use the [Solana SDK Crate](https://crates.io/crates/solana-sdk) instead.
 
 More information about Solana is available in the [Solana documentation](https://solana.com/docs).
 

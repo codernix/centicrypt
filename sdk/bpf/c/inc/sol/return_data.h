@@ -1,6 +1,6 @@
 #pragma once
 /**
- * @brief Solana return data system calls
+ * @brief Centicrypt return data system calls
 **/
 
 #include <sol/types.h>

@@ -1,6 +1,6 @@
 #pragma once
 /**
- * @brief Solana secp256k1 system call
+ * @brief Centicrypt secp256k1 system call
  */
 
 #include <sol/types.h>

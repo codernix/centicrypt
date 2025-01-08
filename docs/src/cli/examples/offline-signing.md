@@ -13,7 +13,7 @@ include:
 - Signing transactions using an [air-gapped](<https://en.wikipedia.org/wiki/Air_gap_(networking)>)
   signing device
 
-This document describes using Solana's CLI to separately sign and submit a
+This document describes using Centicrypt's CLI to separately sign and submit a
 transaction.
 
 ## Commands Supporting Offline Signing

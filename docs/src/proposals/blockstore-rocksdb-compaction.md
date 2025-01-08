@@ -24,11 +24,11 @@ to balance [write, space, and read amplifications](https://smalldatum.blogspot.c
 As different workloads have different requirements, RocksDB makes its options
 highly configurable.  However, it also means its default settings might not
 be always suitable.  This document focuses on RocksDB's compaction
-optimization for Solana's Blockstore.
+optimization for Centicrypt's Blockstore.
 
 ## Problems
 As mentioned in [#16234](https://github.com/solana-labs/solana/issues/16234),
-there're several issues in the Solana's BlockStore which runs RocksDB with
+there're several issues in the Centicrypt's BlockStore which runs RocksDB with
 level compaction.  Here's a quick summary of the issues:
 
 ### Long Write Stalls on Shred Insertions
@@ -40,7 +40,7 @@ configured limit.  In such case, RocksDB will rate-limit / stop all writes
 when it reaches soft / hard threshold.
 
 In [#14586](https://github.com/solana-labs/solana/issues/14586), it is reported
-that the write stalls in Solana's use case can be 40 minutes long.  It is also
+that the write stalls in Centicrypt's use case can be 40 minutes long.  It is also
 reported in [#16234](https://github.com/solana-labs/solana/issues/16234) that
 writes are also slowed-down, indicating the underlying RocksDB instance has
 reach the soft limit for write stall.
@@ -148,7 +148,7 @@ amplification.
 
 To sum up, if no other manual compaction is issued for quickly picking up
 deletions, FIFO Compaction offers the following amplification factors
-in Solana's BlockStore use case:
+in Centicrypt's BlockStore use case:
 
 - Write Amplification: 1 (all data is written once without compaction.)
 - Read Amplification: < 1.1 (assuming each SST file has 10% overlapping key

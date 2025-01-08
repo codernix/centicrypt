@@ -1,6 +1,6 @@
 #pragma once
 /**
- * @brief Solana assert and panic utilities
+ * @brief Centicrypt assert and panic utilities
  */
 
 #include <sol/types.h>
