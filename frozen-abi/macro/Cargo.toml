@@ -1,6 +1,6 @@
 [package]
 name = "solana-frozen-abi-macro"
-description = "Solana Frozen ABI Macro"
+description = "Centicrypt Frozen ABI Macro"
 documentation = "https://docs.rs/solana-frozen-abi-macro"
 version = { workspace = true }
 authors = { workspace = true }

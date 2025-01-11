@@ -1,6 +1,6 @@
 [package]
 name = "solana-memory-management"
-description = "Solana memory management"
+description = "Centicrypt memory management"
 version = { workspace = true }
 authors = { workspace = true }
 repository = { workspace = true }

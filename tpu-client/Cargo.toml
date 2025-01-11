@@ -1,6 +1,6 @@
 [package]
 name = "solana-tpu-client"
-description = "Solana TPU Client"
+description = "Centicrypt TPU Client"
 documentation = "https://docs.rs/solana-tpu-client"
 version = { workspace = true }
 authors = { workspace = true }

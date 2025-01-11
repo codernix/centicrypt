@@ -1,6 +1,6 @@
 [package]
 name = "solana-sdk"
-description = "Solana SDK"
+description = "Centicrypt SDK"
 documentation = "https://docs.rs/solana-sdk"
 readme = "README.md"
 version = { workspace = true }

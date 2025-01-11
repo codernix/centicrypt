@@ -1,6 +1,6 @@
 [package]
 name = "solana-poh"
-description = "Solana PoH"
+description = "Centicrypt PoH"
 documentation = "https://docs.rs/solana-poh"
 version = { workspace = true }
 authors = { workspace = true }

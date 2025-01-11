@@ -1,6 +1,6 @@
 [package]
 name = "solana-udp-client"
-description = "Solana UDP Client"
+description = "Centicrypt UDP Client"
 documentation = "https://docs.rs/solana-udp-client"
 version = { workspace = true }
 authors = { workspace = true }

@@ -1,6 +1,6 @@
 ---
 title: Deploy a Solana Program with the CLI
-pagination_label: "Solana CLI: Deploy a Program"
+pagination_label: "Centicrypt CLI: Deploy a Program"
 sidebar_label: Deploy a Program
 ---
 

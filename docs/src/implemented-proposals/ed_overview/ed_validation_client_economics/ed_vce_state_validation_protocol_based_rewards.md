@@ -40,7 +40,7 @@ From these simulated _Inflation Schedules_, we can also project ranges for token
 Finally we can estimate the _Staked Yield_ on staked CNTCs, if we introduce an additional parameter, previously discussed, _% of Staked SOL_:
 
 $$
-\%~\text{SOL Staked} = \frac{\text{Total CNTC Staked}}{\text{Total Current Supply}}
+\%~\text{CNTC Staked} = \frac{\text{Total CNTC Staked}}{\text{Total Current Supply}}
 $$
 
 In this case, because _% of Staked SOL_ is a parameter that must be estimated (unlike the _Inflation Schedule_ parameters), it is easier to use specific _Inflation Schedule_ parameters and explore a range of _% of Staked SOL_. For the below example, we’ve chosen the middle of the parameter ranges explored above:

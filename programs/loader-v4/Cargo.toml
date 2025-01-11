@@ -1,6 +1,6 @@
 [package]
 name = "solana-loader-v4-program"
-description = "Solana Loader v4"
+description = "Centicrypt Loader v4"
 version = { workspace = true }
 authors = { workspace = true }
 repository = { workspace = true }

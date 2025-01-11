@@ -1,6 +1,6 @@
 [package]
 name = "solana-metrics"
-description = "Solana Metrics"
+description = "Centicrypt Metrics"
 documentation = "https://docs.rs/solana-metrics"
 version = { workspace = true }
 authors = { workspace = true }

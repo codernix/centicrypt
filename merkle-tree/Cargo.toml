@@ -1,6 +1,6 @@
 [package]
 name = "solana-merkle-tree"
-description = "Solana Merkle Tree"
+description = "Centicrypt Merkle Tree"
 documentation = "https://docs.rs/solana-merkle-tree"
 version = { workspace = true }
 authors = { workspace = true }

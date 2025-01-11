@@ -1,6 +1,6 @@
 [package]
 name = "solana-cost-model"
-description = "Solana cost model"
+description = "Centicrypt cost model"
 documentation = "https://docs.rs/solana-cost-model"
 version = { workspace = true }
 authors = { workspace = true }

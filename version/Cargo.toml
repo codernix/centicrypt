@@ -1,6 +1,6 @@
 [package]
 name = "solana-version"
-description = "Solana Version"
+description = "Centicrypt Version"
 documentation = "https://docs.rs/solana-version"
 version = { workspace = true }
 authors = { workspace = true }

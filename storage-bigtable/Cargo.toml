@@ -1,6 +1,6 @@
 [package]
 name = "solana-storage-bigtable"
-description = "Solana Storage BigTable"
+description = "Centicrypt Storage BigTable"
 documentation = "https://docs.rs/solana-storage-bigtable"
 version = { workspace = true }
 authors = { workspace = true }

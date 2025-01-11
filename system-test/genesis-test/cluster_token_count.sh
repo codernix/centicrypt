@@ -35,7 +35,7 @@ function get_token_capitalization {
   totalSupplySol=$((totalSupplyLamports / LAMPORTS_PER_SOL))
 
   printf "\n--- Token Capitalization ---\n"
-  printf "Total token capitalization %'d SOL\n" "$totalSupplySol"
+  printf "Total token capitalization %'d CNTC\n" "$totalSupplySol"
   printf "Total token capitalization %'d Lamports\n" "$totalSupplyLamports"
 
 }
@@ -59,7 +59,7 @@ function get_program_account_balance_totals {
 
   printf "\n--- %s Account Balance Totals ---\n" "$PROGRAM_NAME"
   printf "Number of %s Program accounts: %'.f\n" "$PROGRAM_NAME" "$numberOfAccounts"
-  printf "Total token balance in all %s accounts: %'d SOL\n" "$PROGRAM_NAME" "$totalAccountBalancesSol"
+  printf "Total token balance in all %s accounts: %'d CNTC\n" "$PROGRAM_NAME" "$totalAccountBalancesSol"
   printf "Total token balance in all %s accounts: %'d Lamports\n" "$PROGRAM_NAME" "$totalAccountBalancesLamports"
 
   case $PROGRAM_NAME in

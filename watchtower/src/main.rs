@@ -124,7 +124,7 @@ fn get_config() -> Config {
         .arg(
             Arg::with_name("minimum_validator_identity_balance")
                 .long("minimum-validator-identity-balance")
-                .value_name("SOL")
+                .value_name("CNTC")
                 .takes_value(true)
                 .default_value("10")
                 .validator(is_parsable::<f64>)

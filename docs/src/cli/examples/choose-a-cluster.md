@@ -1,6 +1,6 @@
 ---
 title: Connecting to a Cluster with the Solana CLI
-pagination_label: "Solana CLI: Connecting to a Cluster"
+pagination_label: "Centicrypt CLI: Connecting to a Cluster"
 sidebar_label: Connecting to a Cluster
 ---
 

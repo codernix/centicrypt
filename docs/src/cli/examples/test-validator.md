@@ -1,6 +1,6 @@
 ---
 title: Solana Test Validator
-pagination_label: "Solana CLI: Test Validator"
+pagination_label: "Centicrypt CLI: Test Validator"
 sidebar_label: Test Validator
 ---
 

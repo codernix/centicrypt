@@ -1,6 +1,6 @@
 [package]
 name = "solana-faucet"
-description = "Solana Faucet"
+description = "Centicrypt Faucet"
 documentation = "https://docs.rs/solana-faucet"
 version = { workspace = true }
 authors = { workspace = true }

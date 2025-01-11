@@ -1,6 +1,6 @@
 [package]
 name = "solana-ledger"
-description = "Solana ledger"
+description = "Centicrypt ledger"
 documentation = "https://docs.rs/solana-ledger"
 version = { workspace = true }
 authors = { workspace = true }

@@ -1,6 +1,6 @@
 [package]
 name = "solana-frozen-abi"
-description = "Solana Frozen ABI"
+description = "Centicrypt Frozen ABI"
 documentation = "https://docs.rs/solana-frozen-abi"
 version = { workspace = true }
 authors = { workspace = true }

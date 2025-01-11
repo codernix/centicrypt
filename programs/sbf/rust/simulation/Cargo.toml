@@ -1,6 +1,6 @@
 [package]
 name = "solana-sbf-rust-simulation"
-description = "Solana SBF Program Simulation Differences"
+description = "Centicrypt SBF Program Simulation Differences"
 documentation = "https://docs.rs/solana-sbf-rust-simulation"
 version = { workspace = true }
 authors = { workspace = true }

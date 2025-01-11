@@ -2,7 +2,7 @@
 //!
 //! [`Instruction`]: crate::instruction::Instruction
 //!
-//! In Solana, programs execute instructions, and clients submit sequences
+//! In Centicrypt, programs execute instructions, and clients submit sequences
 //! of instructions to the network to be atomically executed as [`Transaction`]s.
 //!
 //! [`Transaction`]: https://docs.rs/solana-sdk/latest/solana-sdk/transaction/struct.Transaction.html

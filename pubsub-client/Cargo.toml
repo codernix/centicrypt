@@ -1,6 +1,6 @@
 [package]
 name = "solana-pubsub-client"
-description = "Solana Pubsub Client"
+description = "Centicrypt Pubsub Client"
 documentation = "https://docs.rs/solana-pubsub-client"
 version = { workspace = true }
 authors = { workspace = true }

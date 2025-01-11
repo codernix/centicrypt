@@ -379,7 +379,7 @@ fn graph_forks(bank_forks: &BankForks, config: &GraphConfig) -> String {
                     )
                 };
             dot.push(format!(
-                r#"  "last vote {}"[shape=box,label="Latest validator vote: {}\nstake: {} SOL\nroot slot: {}\n{}"];"#,
+                r#"  "last vote {}"[shape=box,label="Latest validator vote: {}\nstake: {} CNTC\nroot slot: {}\n{}"];"#,
                 node_pubkey,
                 node_pubkey,
                 lamports_to_sol(*stake),

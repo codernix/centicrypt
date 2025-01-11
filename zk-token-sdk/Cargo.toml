@@ -1,6 +1,6 @@
 [package]
 name = "solana-zk-token-sdk"
-description = "Solana Zk Token SDK"
+description = "Centicrypt Zk Token SDK"
 documentation = "https://docs.rs/solana-zk-token-sdk"
 version = { workspace = true }
 authors = { workspace = true }

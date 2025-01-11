@@ -1,6 +1,6 @@
 ---
 title: Offline Transaction Signing with the Solana CLI
-pagination_label: "Solana CLI: Offline Transaction Signing"
+pagination_label: "Centicrypt CLI: Offline Transaction Signing"
 sidebar_label: Offline Transaction Signing
 ---
 

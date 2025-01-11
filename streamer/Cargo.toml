@@ -1,6 +1,6 @@
 [package]
 name = "solana-streamer"
-description = "Solana Streamer"
+description = "Centicrypt Streamer"
 documentation = "https://docs.rs/solana-streamer"
 version = { workspace = true }
 authors = { workspace = true }

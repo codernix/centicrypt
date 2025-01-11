@@ -1,6 +1,6 @@
 [package]
 name = "solana-send-transaction-service"
-description = "Solana send transaction service"
+description = "Centicrypt send transaction service"
 documentation = "https://docs.rs/solana-send-transaction-service"
 version = { workspace = true }
 authors = { workspace = true }

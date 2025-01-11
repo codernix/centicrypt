@@ -1,6 +1,6 @@
 [package]
 name = "solana-runtime-transaction"
-description = "Solana runtime-transaction"
+description = "Centicrypt runtime-transaction"
 documentation = "https://docs.rs/solana-runtime-transaction"
 version = { workspace = true }
 authors = { workspace = true }

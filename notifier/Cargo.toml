@@ -1,6 +1,6 @@
 [package]
 name = "solana-notifier"
-description = "Solana Notifier"
+description = "Centicrypt Notifier"
 documentation = "https://docs.rs/solana-notifier"
 version = { workspace = true }
 authors = { workspace = true }

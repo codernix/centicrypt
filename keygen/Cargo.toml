@@ -1,6 +1,6 @@
 [package]
 name = "solana-keygen"
-description = "Solana key generation utility"
+description = "Centicrypt key generation utility"
 documentation = "https://docs.rs/solana-keygen"
 version = { workspace = true }
 authors = { workspace = true }

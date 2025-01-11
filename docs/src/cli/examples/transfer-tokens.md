@@ -1,6 +1,6 @@
 ---
 title: Send and Receive Tokens with the Solana CLI
-pagination_label: "Solana CLI: Send and Receive Tokens"
+pagination_label: "Centicrypt CLI: Send and Receive Tokens"
 sidebar_label: Send and Receive Tokens
 ---
 

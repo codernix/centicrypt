@@ -591,7 +591,7 @@ fn build_solana_package(
         exit(1);
     });
 
-    info!("Solana SDK: {}", config.sbf_sdk.display());
+    info!("Centicrypt SDK: {}", config.sbf_sdk.display());
     if config.no_default_features {
         info!("No default features");
     }
@@ -1091,7 +1091,7 @@ fn main() {
         target_directory,
         sbf_sdk: fs::canonicalize(&sbf_sdk).unwrap_or_else(|err| {
             error!(
-                "Solana SDK path does not exist: {}: {}",
+                "Centicrypt SDK path does not exist: {}: {}",
                 sbf_sdk.display(),
                 err
             );

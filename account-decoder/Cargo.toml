@@ -1,6 +1,6 @@
 [package]
 name = "solana-account-decoder"
-description = "Solana account decoder"
+description = "Centicrypt account decoder"
 documentation = "https://docs.rs/solana-account-decoder"
 version = { workspace = true }
 authors = { workspace = true }
