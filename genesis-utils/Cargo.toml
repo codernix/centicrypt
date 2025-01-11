@@ -1,6 +1,6 @@
 [package]
 name = "solana-genesis-utils"
-description = "Solana Genesis Utils"
+description = "Centicrypt Genesis Utils"
 documentation = "https://docs.rs/solana-download-utils"
 version = { workspace = true }
 authors = { workspace = true }

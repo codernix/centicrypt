@@ -1,6 +1,6 @@
 [package]
 name = "solana-rpc-test"
-description = "Solana RPC Test"
+description = "Centicrypt RPC Test"
 documentation = "https://docs.rs/solana-rpc-test"
 publish = false
 version = { workspace = true }

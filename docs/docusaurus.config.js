@@ -1,9 +1,9 @@
 const math = require("remark-math");
 const katex = require("rehype-katex");
 module.exports = {
-  title: "Solana Validator",
+  title: "Centicrypt Validator",
   tagline:
-    "Solana is an open source project implementing a new, high-performance, permissionless blockchain.",
+    "Centicrypt is an open source project implementing a new, high-performance, permissionless blockchain.",
   url: "https://docs.solanalabs.com",
   baseUrl: "/",
   favicon: "img/favicon.ico",
@@ -77,7 +77,7 @@ module.exports = {
             { label: "Proposals", to: "proposals" },
             {
               href: "https://spl.solana.com",
-              label: "Solana Program Library",
+              label: "Centicrypt Program Library",
             },
           ],
         },

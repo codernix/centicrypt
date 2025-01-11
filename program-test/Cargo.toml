@@ -1,5 +1,5 @@
 [package]
-description = "Solana Program Test Framework"
+description = "Centicrypt Program Test Framework"
 name = "solana-program-test"
 version = { workspace = true }
 authors = { workspace = true }

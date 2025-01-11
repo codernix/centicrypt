@@ -1,6 +1,6 @@
 [package]
 name = "solana-accounts-db"
-description = "Solana accounts db"
+description = "Centicrypt accounts db"
 documentation = "https://docs.rs/solana-acounts-db"
 version = { workspace = true }
 authors = { workspace = true }

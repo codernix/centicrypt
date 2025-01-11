@@ -1,6 +1,6 @@
 //! Atomically-committed sequences of instructions.
 //!
-//! While [`Instruction`]s are the basic unit of computation in Solana, they are
+//! While [`Instruction`]s are the basic unit of computation in Centicrypt, they are
 //! submitted by clients in [`Transaction`]s containing one or more
 //! instructions, and signed by one or more [`Signer`]s. Solana executes the
 //! instructions in a transaction in order, and only commits any changes if all
@@ -149,7 +149,7 @@ pub type Result<T> = result::Result<T, TransactionError>;
 
 /// An atomically-committed sequence of instructions.
 ///
-/// While [`Instruction`]s are the basic unit of computation in Solana,
+/// While [`Instruction`]s are the basic unit of computation in Centicrypt,
 /// they are submitted by clients in [`Transaction`]s containing one or
 /// more instructions, and signed by one or more [`Signer`]s.
 ///

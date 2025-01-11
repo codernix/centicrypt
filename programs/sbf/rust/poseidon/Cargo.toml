@@ -1,6 +1,6 @@
 [package]
 name = "solana-sbf-rust-poseidon"
-description = "Solana SBF test program written in Rust"
+description = "Centicrypt SBF test program written in Rust"
 version = { workspace = true }
 authors = { workspace = true }
 repository = { workspace = true }

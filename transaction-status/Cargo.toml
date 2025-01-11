@@ -1,6 +1,6 @@
 [package]
 name = "solana-transaction-status"
-description = "Solana transaction status types"
+description = "Centicrypt transaction status types"
 documentation = "https://docs.rs/solana-transaction-status"
 version = { workspace = true }
 authors = { workspace = true }

@@ -1,6 +1,6 @@
 [package]
 name = "solana-sdk-macro"
-description = "Solana SDK Macro"
+description = "Centicrypt SDK Macro"
 documentation = "https://docs.rs/solana-sdk-macro"
 version = { workspace = true }
 authors = { workspace = true }

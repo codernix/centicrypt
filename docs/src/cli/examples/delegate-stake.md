@@ -1,6 +1,6 @@
 ---
 title: Staking CNTC with the Solana CLI
-pagination_label: "Solana CLI: Staking"
+pagination_label: "Centicrypt CLI: Staking"
 sidebar_label: Staking
 ---
 

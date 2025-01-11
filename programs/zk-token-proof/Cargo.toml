@@ -1,6 +1,6 @@
 [package]
 name = "solana-zk-token-proof-program"
-description = "Solana Zk Token Proof Program"
+description = "Centicrypt Zk Token Proof Program"
 version = { workspace = true }
 authors = { workspace = true }
 repository = { workspace = true }

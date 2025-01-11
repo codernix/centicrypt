@@ -1,6 +1,6 @@
 [package]
 name = "solana-rpc-client"
-description = "Solana RPC Client"
+description = "Centicrypt RPC Client"
 documentation = "https://docs.rs/solana-rpc-client"
 version = { workspace = true }
 authors = { workspace = true }

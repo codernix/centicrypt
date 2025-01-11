@@ -1,6 +1,6 @@
 [package]
 name = "solana-sbf-rust-param-passing-dep"
-description = "Solana SBF program written in Rust"
+description = "Centicrypt SBF program written in Rust"
 documentation = "https://docs.rs/solana-sbf-rust-param-passing-dep"
 version = { workspace = true }
 authors = { workspace = true }

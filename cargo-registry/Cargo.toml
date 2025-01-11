@@ -1,6 +1,6 @@
 [package]
 name = "solana-cargo-registry"
-description = "Solana cargo registry"
+description = "Centicrypt cargo registry"
 documentation = "https://docs.rs/solana-cargo-registry"
 version = { workspace = true }
 authors = { workspace = true }

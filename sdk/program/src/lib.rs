@@ -145,7 +145,7 @@
 //! that will fail in off-chain scenarios at runtime. This distinction is not
 //! well-reflected in the documentation.
 //!
-//! For a more complete description of Solana's implementation of eBPF and its
+//! For a more complete description of Centicrypt's implementation of eBPF and its
 //! limitations, see the main Solana documentation for [on-chain programs][ocp].
 //!
 //! [ocp]: https://solana.com/docs/programs

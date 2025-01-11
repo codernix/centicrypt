@@ -1,6 +1,6 @@
 [package]
 name = "solana-sbf-rust-alt-bn128-compression"
-description = "Solana BPF test program written in Rust"
+description = "Centicrypt BPF test program written in Rust"
 version = { workspace = true }
 authors = { workspace = true }
 repository = { workspace = true }

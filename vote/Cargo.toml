@@ -1,6 +1,6 @@
 [package]
 name = "solana-vote"
-description = "Solana vote"
+description = "Centicrypt vote"
 documentation = "https://docs.rs/solana-vote"
 version = { workspace = true }
 authors = { workspace = true }

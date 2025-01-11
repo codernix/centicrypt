@@ -1,6 +1,6 @@
 [package]
 name = "solana-net-utils"
-description = "Solana Network Utilities"
+description = "Centicrypt Network Utilities"
 documentation = "https://docs.rs/solana-net-utils"
 version = { workspace = true }
 authors = { workspace = true }

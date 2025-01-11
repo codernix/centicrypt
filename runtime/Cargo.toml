@@ -1,6 +1,6 @@
 [package]
 name = "solana-runtime"
-description = "Solana runtime"
+description = "Centicrypt runtime"
 documentation = "https://docs.rs/solana-runtime"
 version = { workspace = true }
 authors = { workspace = true }

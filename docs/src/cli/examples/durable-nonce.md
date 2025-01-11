@@ -1,6 +1,6 @@
 ---
 title: Durable Transaction Nonces in the Solana CLI
-pagination_label: "Solana CLI: Durable Transaction Nonces"
+pagination_label: "Centicrypt CLI: Durable Transaction Nonces"
 sidebar_label: Durable Transaction Nonces
 ---
 

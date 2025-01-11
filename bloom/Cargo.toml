@@ -1,6 +1,6 @@
 [package]
 name = "solana-bloom"
-description = "Solana bloom filter"
+description = "Centicrypt bloom filter"
 documentation = "https://docs.rs/solana-bloom"
 version = { workspace = true }
 authors = { workspace = true }

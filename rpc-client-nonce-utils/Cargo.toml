@@ -1,6 +1,6 @@
 [package]
 name = "solana-rpc-client-nonce-utils"
-description = "Solana RPC Client Nonce Utilities"
+description = "Centicrypt RPC Client Nonce Utilities"
 documentation = "https://docs.rs/solana-nonce-client"
 version = { workspace = true }
 authors = { workspace = true }
