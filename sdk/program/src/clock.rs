@@ -47,15 +47,15 @@ pub const DEFAULT_HASHES_PER_SECOND: u64 = 500_000; //2_000_000;
 // Empirical sampling of mainnet validator hash rate showed the following stake
 // percentages can exceed the designated hash rates as of July 2023:
 // 97.6%
-pub const UPDATED_HASHES_PER_SECOND_2: u64 = 2_800_000;
+pub const UPDATED_HASHES_PER_SECOND_2: u64 = 700_000; //2_800_000;
 // 96.2%
-pub const UPDATED_HASHES_PER_SECOND_3: u64 = 4_400_000;
+pub const UPDATED_HASHES_PER_SECOND_3: u64 = 1_100_000; //4_400_000;
 // 96.2%
-pub const UPDATED_HASHES_PER_SECOND_4: u64 = 7_600_000;
+pub const UPDATED_HASHES_PER_SECOND_4: u64 = 1_900_000; //7_600_000;
 // 96.2%
-pub const UPDATED_HASHES_PER_SECOND_5: u64 = 9_200_000;
+pub const UPDATED_HASHES_PER_SECOND_5: u64 = 2_300_000; //9_200_000;
 // 96.2%
-pub const UPDATED_HASHES_PER_SECOND_6: u64 = 10_000_000;
+pub const UPDATED_HASHES_PER_SECOND_6: u64 = 2_500_000; //10_000_000;
 
 #[cfg(test)]
 static_assertions::const_assert_eq!(DEFAULT_HASHES_PER_TICK, 12_500);

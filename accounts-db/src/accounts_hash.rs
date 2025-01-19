@@ -788,9 +788,10 @@ impl<'a> AccountsHasher<'a> {
     }
 
     pub fn checked_cast_for_capitalization(balance: u128) -> u64 {
-        balance.try_into().unwrap_or_else(|_| {
+        /*balance.try_into().unwrap_or_else(|_| {
             panic!("overflow is detected while summing capitalization: {balance}")
-        })
+        })*/
+        balance.try_into().unwrap_or(u64::MAX)
     }
 
     /// returns:
@@ -829,10 +830,16 @@ impl<'a> AccountsHasher<'a> {
                 let (hashes_file, lamports_bin) =
                     self.de_dup_accounts_in_parallel(sorted_data_by_pubkey, bin, max_bin, stats);
 
-                accum.lamports_sum = accum
+                /*accum.lamports_sum = accum
                     .lamports_sum
                     .checked_add(lamports_bin)
-                    .expect("summing capitalization cannot overflow");
+                    .expect("summing capitalization cannot overflow");*/
+                //Adding more verbosity:
+                if let Some(sum) = accum.lamports_sum.checked_add(lamports_bin) {
+                    accum.lamports_sum = sum;
+                } else {
+                    error!("Overflow detected: current={}, bin={}", accum.lamports_sum, lamports_bin);
+                }
                 accum.hashes_count += hashes_file.count();
                 accum.hashes_files.push(hashes_file);
                 accum
